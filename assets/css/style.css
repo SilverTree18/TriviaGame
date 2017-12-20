@@ -1,0 +1,106 @@
+body{
+	margin: 50px;
+	font-family: 'Domine', serif;
+	background-image: url("../images/watercolor.jpg");
+	font-size: 30px;
+
+}
+header{
+	background-image: url("../images/minnesota.gif");
+	background-repeat: no-repeat;
+    background-position: center; 
+	padding: 10px;
+	font-family: 'Gochi Hand', cursive;
+	text-align: center;
+	color: #083452;
+}
+div#quiz{
+	padding: 10px 40px 40px 40px;
+	margin: 50px;
+}
+h1{
+	padding-top:100px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 150px;
+	line-height: 40%;
+}
+h2, h5{
+	font-family: 'Domine', serif;
+	font-size: 50px;
+	color: #083452;
+}
+h3{
+	font-family: 'Domine', serif;
+	font-size: 40px;
+
+
+}
+h4{
+	font-family: 'Domine', serif;
+
+}
+.btn-primary,.reset{
+	background-color: #083452;
+	color: white;
+	font-family: 'Domine', serif;
+	font-size: 30px;
+	padding: 20px 70px;
+	margin-top: 180px;
+	border: 0px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: #202364;
+}
+.container{
+	background-color:white; 
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 900px;
+	border-radius: 20px;
+  	border: 5px solid #083452;
+}
+
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+}
+
+#quiz_status, #timeLeft{
+	padding-top: 20px;
+	color: #083452;
+	font-family: 'Domine', serif;
+	font-size: 30px;
+	line-height: 60%;
+}
+#timeLeft{
+	color: #8C0100;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 50px;
+}
+button,
+legend {
+
+	background-color: #083452;
+	color: white;
+	font-family: 'Domine', serif;
+	font-size: 20px;
+	padding: 20px 70px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 0px;	
+	border-radius: 10px;
+}
+
+button:hover,
+button:focus {
+  color: #999;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+  outline: 1px solid black;
+}
