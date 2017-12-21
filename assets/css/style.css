@@ -104,3 +104,6 @@ button:active {
   color: black;
   outline: 1px solid black;
 }
+.timerDone{
+	display: none;
+}

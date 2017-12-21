@@ -18,11 +18,15 @@ function _(x) {
  function renderQuestion() {
 	quiz = _("quiz");
 	if (position >= questions.length) {
+		stopTimer();
 		quiz.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct!</h2>";
 		_("quiz_status").innerHTML = "Let's see what kind of Minnesotan you are.";
 		position = 0;
 		correct = 0;
 		return false;
+		clearInterval(x);
+		$("#timeLeft").hide();
+
 
 
 	}
@@ -71,7 +75,7 @@ function startTimer(){
 }, 1000)}
 
 function stopTimer(){
-	$(this).hide();
+	$("#timeLeftSpan").addClass("timerDone");
 }
 
 //window.addEventListener("load", renderQuestion, false);
